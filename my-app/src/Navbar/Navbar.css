@@ -1,0 +1,87 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar .logo a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar .nav-buttons .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .navbar .nav-buttons .whitepaper-btn {
+    background-color: #4b4b4b;
+  }
+  
+  .navbar .nav-buttons .get-started-btn {
+    background-color: #8b00ff;
+    color: white;
+  }
+  
+  /* src/components/HeroSection.css */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+    color: white;
+    background: linear-gradient(to bottom right, #1a1a2e, #16213e);
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-btn {
+    background-color: #8b00ff;
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .hero-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .hero-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
